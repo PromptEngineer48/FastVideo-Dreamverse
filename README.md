@@ -84,7 +84,7 @@ In a second `tmux` session:
 
 ```bash
 tmux new -s dvweb
-cd FastVideo/apps/dreamverse/web
+cd /root/FastVideo/apps/dreamverse/web
 BACKEND_HOST=localhost BACKEND_PORT=8009 npm run dev   # serves on port 5299
 ```
 
